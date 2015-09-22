@@ -6,4 +6,5 @@ class ApplicationController < ActionController::Base
   def hello
     render text: 'hello, world from toy app heroku'
   end
+
 end
